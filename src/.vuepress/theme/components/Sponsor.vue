@@ -3,7 +3,7 @@
     <div id="drinks-box">
       <div id="drinks-box-s" class="drinks-button left-100">
         <div id="drinks-icons" class="left-100 tr3">
-          <div id="coffee-donate" class="icon-donate">
+          <div id="coffee-donate" class="icon-donate1">
             <span class="font-icon icon iconfont icon-hk-flutter"></span>
             赞助
           </div>
@@ -14,9 +14,9 @@
             <a :href="githubLink" target="_blank">Github</a>
           </div>
           <ul id="donate-buttons" class="list tr3">
-            <li id="paypal_donate">
+            <!-- <li id="paypal_donate">
               <a :href="paypalLink" target="_blank">Paypal</a>
-            </li>
+            </li> -->
             <!-- <li id="btc_donate" class="donate-button">Bitcoin</li> -->
             <li id="alipay_donate" class="donate-button">AliPay</li>
             <li id="wechat_donate" class="donate-button2">WeChat</li>
@@ -33,13 +33,13 @@
 <script setup lang="ts">
 import { ref, reactive, computed, onMounted } from "vue";
 import { useWindowSize } from "@theme-hope/composables/index";
-const githubLink = "https://github.com/OrageKK/sponsor-page";
-const paypalLink = "https://www.paypal.me/oragekk";
+const githubLink = "https://github.com/Kemeow815/sponsor-page";
+// const paypalLink = "https://www.paypal.me/oragekk";
 const qrCodes = reactive({
   // btc_donate: "/assets/images/BTCQR.png",
-  alipay_donate: "/assets/images/AliPayQR.jpg",
+  alipay_donate: "https://s2.loli.net/2025/04/13/HYrnNFOKDZPSv4p.jpg",
   alipay_donate_link: "https://qr.alipay.com/fkx10720tbvl7vbt30mmad4",
-  wechat_donate: "/assets/images/WeChanSQ.JPG",
+  wechat_donate: "https://s2.loli.net/2025/04/13/HQ4lbFfJkpU2R9V.jpg",
 });
 const { isMobile } = useWindowSize();
 
