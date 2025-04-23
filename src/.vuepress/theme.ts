@@ -13,9 +13,9 @@ export default MyTheme({
 
   iconAssets: [
     // 默认：
-    "//at.alicdn.com/t/c/font_4903155_j0iv2iod35j.css",
+    "//at.alicdn.com/t/c/font_4903155_ho5poowdj8i.css",
     // 自己的
-    "//at.alicdn.com/t/c/font_4903155_e6qrsj805wv.css",
+    "//at.alicdn.com/t/c/font_4903155_ho5poowdj8i.css",
   ],
 
   logo: "/logo.svg",
