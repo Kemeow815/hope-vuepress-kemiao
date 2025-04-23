@@ -99,9 +99,9 @@ export default defineUserConfig({
     }),
     // 搜索插件
     docsearchPlugin({
-      appId: "PI9QTF572N",
-      apiKey: "07e2432555d8ecdd3fb72978f0a05cdc",
-      indexName: "oragekk",
+      appId: "Q93A3KTAVB",
+      apiKey: "ddce33ab551e4821d4e5bc8c019c5dd2",
+      indexName: "i-kemeow",
       locales: {
         "/": {
           placeholder: "搜索内容",
