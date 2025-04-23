@@ -1,18 +1,16 @@
 ---
-title: 主要功能与配置演示
+title: 导航目录
 article: false
 index: false
-icon: discover
+icon: zhishipai
 category:
   - 使用指南
 ---
 
 ## 目录
 
-- [Markdown 展示](markdown.md)
-
-- [页面展示](page.md)
-
-- [禁用展示](disable.md)
-
-- [加密展示](encrypt.md)
+- [主页](/)
+- [Git教程](/posts/Git教程/)
+- [建站记录](/posts/建站记录/)
+- [Markdown语法](/posts/Markdown语法/)
+- [关于](/about/)

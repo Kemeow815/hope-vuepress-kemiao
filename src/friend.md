@@ -21,20 +21,20 @@ import MyCoverLink from "@MyCoverLink";
 @tab 🌴General
 
 ```yml
-昵称: "上冬十二",
-简介: "到最后，竟庆幸于夕阳仍留在身上",
-头像: "https://oragekk.me/logo.svg",
-连接: "https://oragekk.me/"
+昵称: "克喵爱吃卤面",
+简介: "愿你看清一切真相后，依旧热爱你的家人和朋友。",
+头像: "https://s2.loli.net/2025/04/20/V8zWaEoxP5msqNQ.jpg",
+连接: "https://3w.kemiao.online/"
 ```
 
 @tab json
 
 ```json
 {
-  "name": "上冬十二",
-  "desc": "到最后，竟庆幸于夕阳仍留在身上",
-  "ico": "https://oragekk.me/logo.svg",
-  "link": "https://oragekk.me/"
+  "name": "克喵爱吃卤面",
+  "desc": "愿你看清一切真相后，依旧热爱你的家人和朋友。",
+  "ico": "https://s2.loli.net/2025/04/20/V8zWaEoxP5msqNQ.jpg",
+  "link": "https://3w.kemiao.online/"
 }
 ```
 @tab yml

@@ -1,18 +1,18 @@
 ---
 home: true
 layout: BlogHome
-icon: home
+icon: a-30shouye2
 title: 主页
 heroImage: /logo.svg
-heroText: Oragekk's Blog
-bgImage: "/assets/home_bg3.jpg"
+heroText: 喵落阁
+bgImage: "https://s2.loli.net/2025/03/26/1zJfc5ysV9PSBGU.jpg"
 heroFullScreen: true
 tagline: Goals determine what you are going to be. —— Julius Erving
-description: 「一生短暂，过程很美」 致力于分享自己涉及和了解的内容，包括但不限于编程语言、AI体验、世界探索者、极客知识| Exploration & geek enthusiast，Full-stack Front-end Engineer，UX Designer | 与你一起发现更大的世界。
+description: 愿你看清一切真相后，依旧热爱你的家人和朋友。
 head:
   - - meta
     - name: keywords
-      content: oragekk, 上冬十二, Oragekk Blog, 博客, 个人博客, 极客, geek, 大前端, 设计, iOS, Flutter, Vue
+      content: Ke Miao, 克喵爱吃卤面, Ke Miao Blog, 博客, 个人博客
 projects:
   - icon: /logo.svg
     name: 关于本站

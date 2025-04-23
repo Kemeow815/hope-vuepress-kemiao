@@ -20,7 +20,6 @@ import { DropTransition } from "@theme-hope/components/transitions/DropTransitio
 import { SlideDownIcon } from "@theme-hope/modules/blog/components/icons/icons.js";
 import "vuepress-theme-hope/modules/blog/styles/blog-hero.scss";
 import SwitchBtn from "./SwitchBtn.vue";
-import { BingApi } from "../api/bing";
 import { ThemeHopePageFrontmatter } from "vuepress-theme-hope/shared/frontmatter";
 import { isString } from "vuepress/shared";
 export default defineComponent({
@@ -79,29 +78,29 @@ export default defineComponent({
         window.localStorage.setItem("bgImage", newValue);
       }
     );
-    const getImage = () => {
-      BingApi.request().then((res) => {
-        if (res.status == 200) {
-          for (const [index, image] of res.data.images.entries()) {
-            image.url = `https://cn.bing.com/${image.url}`;
-            var n = new Image();
-            n.src = image.url;
-            n.onload = () => { };
-            if (index == 0) {
-              let f = document.querySelector(".footer-wrapper") as HTMLElement;
-              f && (f.style.backgroundImage = `url(${image.url})`);
-              frontmatter.value.bgImage = withBase(image.url);
-            }
-          }
-          bingDatasRef.value = res.data.images;
-        }
-      });
-    };
-    onMounted(() => {
-      nextTick(() => {
-        getImage();
-      });
-    });
+    // const getImage = () => {
+    //   BingApi.request().then((res) => {
+    //     if (res.status == 200) {
+    //       for (const [index, image] of res.data.images.entries()) {
+    //         image.url = `https://cn.bing.com/${image.url}`;
+    //         var n = new Image();
+    //         n.src = image.url;
+    //         n.onload = () => { };
+    //         if (index == 0) {
+    //           let f = document.querySelector(".footer-wrapper") as HTMLElement;
+    //           f && (f.style.backgroundImage = `url(${image.url})`);
+    //           frontmatter.value.bgImage = withBase(image.url);
+    //         }
+    //       }
+    //       bingDatasRef.value = res.data.images;
+    //     }
+    //   });
+    // };
+    // onMounted(() => {
+    //   nextTick(() => {
+    //     getImage();
+    //   });
+    // });
 
     return () =>
       frontmatter.value.hero === false
@@ -186,15 +185,15 @@ export default defineComponent({
                 )
                 : null
             ),
-            bingData.value
-              ? h(SwitchBtn, {
-                onLeftClick: leftClick,
-                onRightClick: rightClick,
-                bingData: bingData.value,
-                lDisabled: lDisabled.value,
-                rDisabled: rDisabled.value,
-              })
-              : null,
+            // bingData.value
+            //   ? h(SwitchBtn, {
+            //     onLeftClick: leftClick,
+            //     onRightClick: rightClick,
+            //     bingData: bingData.value,
+            //     lDisabled: lDisabled.value,
+            //     rDisabled: rDisabled.value,
+            //   })
+            //   : null,
             isFullScreen.value
               ? h(
                 "button",

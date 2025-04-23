@@ -24,8 +24,8 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Oragekk's Blog",
-      description: "上冬十二的博客",
+      title: "喵落阁",
+      description: "克喵爱吃卤面的博客",
     },
   },
   alias: {
@@ -39,28 +39,28 @@ export default defineUserConfig({
 
   port: 9527,
 
-  bundler: viteBundler({
-    viteOptions: {
-      server: {
-        proxy: {
-          "/bing": {
-            target: "https://cn.bing.com",
-            changeOrigin: true,
-            rewrite: (path) => path.replace(/^\/bing/, ""),
-          },
-        },
-      }
-    },
-    // vuePluginOptions: {},
-  }),
+  // bundler: viteBundler({
+  //   viteOptions: {
+  //     server: {
+  //       proxy: {
+  //         "/bing": {
+  //           target: "https://cn.bing.com",
+  //           changeOrigin: true,
+  //           rewrite: (path) => path.replace(/^\/bing/, ""),
+  //         },
+  //       },
+  //     }
+  //   },
+  //   // vuePluginOptions: {},
+  // }),
   plugins: [
     metingPlugin({
       metingOptions: {
         global: true,
-        server: "tencent",
-        api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
+        server: "netease",
+        api: "https://v.iarc.top/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
         type: "playlist",
-        mid: "851947617",
+        mid: "2607560262",
         aplayerOptions: {
           lrcDisplay: 'hide'
         }

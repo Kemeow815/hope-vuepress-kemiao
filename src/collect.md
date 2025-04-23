@@ -13,7 +13,7 @@ actions:
   - text: 更新历史 💡
     link: /timeline/
 
-  - text: 关于本站 🛠
+  - text: 关于我 🛠
     link: /about
 
   - text: 绝美404 🎯

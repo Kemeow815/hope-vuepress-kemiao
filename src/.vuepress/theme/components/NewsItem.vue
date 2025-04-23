@@ -3,9 +3,9 @@
     <article class="vp-article-item" vocab="https://schema.org/" typeof="Article">
       <div class="news-item-content">
         <div class="info-row">
-          <img class="avatar" src="/assets/avatar.webp" />
+          <img class="avatar" src="https://s2.loli.net/2025/04/21/OMNycVpidhQt92r.png" />
           <div>
-            <a href="/intro"><span class="name">上冬十二</span></a>
+            <a href="/about"><span class="name">克喵爱吃卤面</span></a>
             <div class="page-info" v-if="pinfo">
               <DateInfo v-bind="pinfo" />
               <PageViewInfo v-bind="pinfo" />

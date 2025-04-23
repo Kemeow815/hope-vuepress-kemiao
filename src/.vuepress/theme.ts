@@ -3,24 +3,24 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 export default MyTheme({
   hotReload: true,
-  hostname: "https://oragekk.me",
+  hostname: "https://i.kemeow.cn",
   themeColor: true,
   fullscreen: true,
   author: {
-    name: "Oragekk",
-    url: "https://orgaekk.me",
+    name: "克喵爱吃卤面",
+    url: "https://i.kemeow.cn",
   },
 
   iconAssets: [
     // 默认：
-    "//at.alicdn.com/t/c/font_2410206_5vb9zlyghj.css",
+    "//at.alicdn.com/t/c/font_4903155_j0iv2iod35j.css",
     // 自己的
-    "//at.alicdn.com/t/c/font_3941380_00g6dc2nedwir.css",
+    "//at.alicdn.com/t/c/font_4903155_e6qrsj805wv.css",
   ],
 
   logo: "/logo.svg",
 
-  repo: "OrageKK/oragekk.github.io",
+  repo: "Kemeow815/hope-vuepress-kemiao",
 
   docsDir: "src",
 
@@ -33,19 +33,20 @@ export default MyTheme({
   blog: {
     medias: {
       // Baidu: "https://example.com",
-      // BiliBili: "https://example.com",
+      BiliBili: "https://space.bilibili.com/3546643173477234",
+      Telegram: "https://t.me/KemiaoJun",
       // Bitbucket: "https://example.com",
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "mailto:oragekk@163.com",
+      Email: "mailto:kemiaofx@163.com",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
       // Gitee: "https://example.com",
-      GitHub: "https://github.com/OrageKK",
+      GitHub: "https://github.com/Kemeow815",
       // Gitlab: "https://example.com",
-      Gmail: "mailto:oragekk@gmail.com",
+      // Gmail: "mailto:oragekk@gmail.com",
       // Instagram: "https://example.com",
       // Lark: "https://example.com",
       // Lines: "https://example.com",
@@ -65,7 +66,7 @@ export default MyTheme({
       // Zhihu: "https://example.com",
 
     },
-    name: "上冬十二",
+    name: "克喵爱吃卤面",
   },
   locales: {
     /**
@@ -83,7 +84,7 @@ export default MyTheme({
       displayFooter: false,
 
       blog: {
-        description: "到最后，竟庆幸于夕阳仍留在身上",
+        description: "愿你看清一切真相后，依旧热爱你的家人和朋友。",
         intro: "/intro.html",
       },
 
@@ -141,7 +142,7 @@ export default MyTheme({
     },
     comment: {
       provider: "Waline",
-      serverURL: "https://talk.oragekk.me/", // your server url
+      serverURL: "https://waline-vuepress1.314926.xyz/", // your server url
       reaction: true,
       requiredMeta: ["nick", 'mail'],
       wordLimit: 300,
@@ -166,7 +167,7 @@ export default MyTheme({
     },
     prismjs: false,
     copyright: {
-      author: "Oragekk",
+      author: "克喵爱吃卤面",
       license: "CC BY-NC-SA 4.0",
       global: true,
     },
