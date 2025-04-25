@@ -18,7 +18,7 @@
     "@vuepress/helper": "2.0.0-rc.31",
     "@vuepress/plugin-blog": "2.0.0-rc.31",
     "@vuepress/plugin-comment": "2.0.0-rc.31",
-    "@vuepress/plugin-docsearch": "next",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.31",
     "@vuepress/plugin-feed": "2.0.0-rc.31",
     "@vuepress/plugin-google-analytics": "2.0.0-rc.31",
     "@vuepress/plugin-pwa": "2.0.0-rc.31",
