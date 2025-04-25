@@ -3,12 +3,12 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 export default MyTheme({
   hotReload: true,
-  hostname: "https://i.kemeow.cn",
+  hostname: "https://hope.kemeow.top",
   themeColor: true,
   fullscreen: true,
   author: {
     name: "克喵爱吃卤面",
-    url: "https://i.kemeow.cn",
+    url: "https://hope.kemeow.top",
   },
 
   iconAssets: [
