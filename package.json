@@ -22,7 +22,6 @@
     "@vuepress/plugin-feed": "2.0.0-rc.31",
     "@vuepress/plugin-google-analytics": "2.0.0-rc.31",
     "@vuepress/plugin-pwa": "2.0.0-rc.31",
-    "@vuepress/plugin-search": "2.0.0-rc.94",
     "@waline/client": "^3.5.2",
     "chart.js": "^4.4.3",
     "cz-git": "^1.9.2",
